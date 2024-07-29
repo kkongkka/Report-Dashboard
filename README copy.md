@@ -1,1 +1,0 @@
-# VALD Report
