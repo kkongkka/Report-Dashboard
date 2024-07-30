@@ -190,7 +190,7 @@ else:
     segment_power_values, segment_power_fig = segment_power_plotly(k_df, sp_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
     linear_momentum_values, linear_momentum_fig = linear_momentum_plotly(k_df, lm_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
     angular_momentum_values, angular_momentum_fig = angular_momentum_plotly(k_df, am_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
-    xfactor_values, xfactor_fig = angular_momentum_plotly(k_df, xfactor_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
+    xfactor_values, xfactor_fig = x_factor_plotly(k_df, xfactor_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
     # energy_values, energy_fig = energy_plotly(k_df, energy_cols, k_time, k_kh_time1, k_fc_time, k_mer_time, k_br_time)
     
     
